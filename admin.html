@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Work Report Dashboard</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    padding:20px;
+}
+
+.container {
+    max-width:700px;
+    margin:auto;
+}
+
+h1 {
+    text-align:center;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:12px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.15);
+}
+
+.status {
+    display:inline-block;
+    padding:6px 12px;
+    border-radius:20px;
+    background:#ffcc00;
+}
+
+select, button {
+    padding:10px;
+    width:100%;
+    margin-top:10px;
+    border-radius:6px;
+}
+
+button {
+    background:#1976d2;
+    color:white;
+    border:none;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h1>Work Report Dashboard</h1>
+
+
+<div class="card">
+
+<h3>Safety Concern</h3>
+
+<p><b>Date:</b> July 6, 2026 10:32 AM</p>
+
+<p><b>Location:</b> Pipeline Section A</p>
+
+<p>
+Missing barricade around excavation.
+</p>
+
+<p>
+Submitted by: Anonymous
+</p>
+
+<span class="status">
+New
+</span>
+
+
+<select>
+<option>New</option>
+<option>Reviewing</option>
+<option>Resolved</option>
+</select>
+
+
+<button>
+Save Status
+</button>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Equipment Issue</h3>
+
+<p><b>Date:</b> July 6, 2026 1:15 PM</p>
+
+<p><b>Location:</b> Yard</p>
+
+<p>
+Hydraulic leak noticed on excavator.
+</p>
+
+<p>
+Submitted by: Mike
+</p>
+
+<span class="status">
+Reviewing
+</span>
+
+
+<select>
+<option>New</option>
+<option selected>Reviewing</option>
+<option>Resolved</option>
+</select>
+
+
+<button>
+Save Status
+</button>
+
+</div>
+
+
+</div>
+
+</body>
+</html>
